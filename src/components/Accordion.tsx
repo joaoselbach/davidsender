@@ -38,7 +38,7 @@ export const FrequentQuestions = ({ title, children }: FrequentQuestionsProps) =
           </Box>
           <AccordionIcon  />
         </AccordionButton>
-        <AccordionPanel fontSize={[".9rem", "1rem"]} color="gray.600" pb={4} maxW={[400, 500, 800]}>
+        <AccordionPanel fontSize={[".9rem", "1rem"]} color="gray.600" pb={4} maxW={[300, 500, 800]}>
           {children}
         </AccordionPanel>
       </AccordionItem>

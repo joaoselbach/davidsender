@@ -19,7 +19,7 @@ export const Faq = () => {
         mt="4rem"
         alignItems={['center', 'center', 'flex-start']}
         flexDirection="column"
-        textAlign={['inherit', 'inherit', 'inherit']}
+        textAlign={['inherit', 'inherit', 'inherit']} 
       >
         <FrequentQuestions title="Para quem é essa formação?">
           Psicólogas e profissionais de saúde em geral
