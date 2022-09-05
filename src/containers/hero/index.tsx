@@ -47,7 +47,7 @@ export const Hero = () => {
         px={['1rem']}
         py={['1.5rem', '1.8rem']}
       >
-        EU QUERO SER MELHOR
+        EU QUERO SER UMA PROFISSIONAL MELHOR
       </SolidButton>
     </Flex>
   )
