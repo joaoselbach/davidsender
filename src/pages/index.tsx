@@ -2,6 +2,8 @@ import Head from 'next/head'
 
 import { Box, Icon, Text } from '@chakra-ui/react'
 import { Hero } from '~/containers/hero'
+import { Explain } from '~/containers/explain'
+import { Idea } from '~/containers/idea'
 
 export const Home = () => {
   return (
@@ -14,19 +16,21 @@ export const Home = () => {
           backgroundImage={[
             '/images/bg-desktop-mobile.png',
             '/images/bg-desktop-md.png',
+            '/images/bg-desktop-md.png',
+            '/images/bg-desktop-md.png',
             '/images/bg-desktop-lg.png'
           ]}
           backgroundSize="cover"
           backgroundPosition="center"
           backgroundRepeat="no-repeat"
           h="100%"
-          minH="100vh"
+          minH="120vh"
         >
           <Hero />
         </Box>
-        {/* <Box
+        <Box
           backgroundImage={[
-            '/images/bg-how-md.png',
+            '/images/bg-how-mobile.png',
             '/images/bg-how-md.png',
             '/images/bg-how-md.png'
           ]}
@@ -35,11 +39,11 @@ export const Home = () => {
           h="100%"
           minH="115vh"
         >
-          <Hero />
+          <Explain />
         </Box>
         <Box
           backgroundImage={[
-            '/images/bg-idea-md.png',
+            '/images/testidea.png',
             '/images/bg-idea-md.png',
             '/images/bg-idea-md.png'
           ]}
@@ -48,8 +52,8 @@ export const Home = () => {
           h="100%"
           minH="100vh"
         >
-          <Hero />
-        </Box> */}
+          <Idea />
+        </Box>
       </Box>
     </>
   )

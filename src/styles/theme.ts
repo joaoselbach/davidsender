@@ -3,28 +3,30 @@ import { extendTheme } from '@chakra-ui/react'
 export const theme = extendTheme({
   colors: {
     gray: {
-      900: '#0d0e10',
-      800: '#0F1013',
+      900: '#030303',
+      800: '#353535',
       700: '#1B1F23',
       600: '#575759',
-      500: '#828282',
+      500: '#959595',
       400: '#a1a1a1',
       300: '#D9D9D9',
       50: '#fff'
     },
-    gold: {
-      500: '#C2AD60'
-    },
+    primary: {
+      orange: '#F69D27',
+      blue: '#46BAB1',
+      red: '#E62039',
+    }
   },
   fonts: {
-    heading: 'Dosis',
-    body: 'Dosis'
+    heading: 'Nunito',
+    body: 'Nunito'
   },
   styles: {
     global: {
       body: {
-        bg: '#101114',
-        color: 'gray.50'
+        bg: '#fff',
+        color: 'gray.400'
       },
       html: {
         scrollBehavior: 'smooth',
