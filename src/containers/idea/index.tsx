@@ -4,8 +4,11 @@ import { SolidButton } from '~/components/Buttons/SolidButton'
 export const Idea = () => {
   return (
     <Flex
+    h="100%"
+    justifyContent="center"
+    alignItems="center"
       flexDirection="column"
-      px={['1rem', '1.5rem', '6rem']}
+      px={['.7rem', '1.5rem', '6rem']}
       maxW="1000px"
       marginLeft="auto"
     >
@@ -52,12 +55,13 @@ export const Idea = () => {
         o assunto.
       </Text>
       <SolidButton
+      minW={["100%", "80%"]}
         mt={['2rem', '1rem', '1.8rem']}
         fontSize={['.9rem', '1rem']}
         px={['1rem']}
         py={['1.5rem', '1.8rem']}
       >
-        EU QUERO SER MELHOR
+       EU QUERO CONDUZIR AS <br /> SESSÕES COM SEGURANÇA
       </SolidButton>
     </Flex>
   )

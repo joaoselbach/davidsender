@@ -1,4 +1,4 @@
-import { Flex, Heading, Image, Text } from '@chakra-ui/react'
+import { Flex, Heading, Image, Link, Text } from '@chakra-ui/react'
 import { SolidButton } from '~/components/Buttons/SolidButton'
 
 export const Hero = () => {
@@ -6,9 +6,15 @@ export const Hero = () => {
     <Flex
       alignItems={['center', 'center', 'flex-start']}
       flexDirection="column"
-      justifyContent={['flex-start', 'flex-start', 'center', 'center', 'center']}
+      justifyContent={[
+        'flex-start',
+        'flex-start',
+        'center',
+        'center',
+        'center'
+      ]}
       h="100%"
-      minH={["80vh", "80vh", "90vh"]}
+      minH={['80vh', '80vh', '90vh']}
       maxW="800"
       px={['.5rem', '1.5rem', '6rem']}
       textAlign={['center', 'center', 'inherit']}
@@ -33,7 +39,9 @@ export const Hero = () => {
         Tenha o domínio e a segurança nas suas decisões clínicas sobre a maior
         parte dos pacientes psiquiátricos em seu consultório de psicologia.
       </Text>
+
       <SolidButton
+        minW={['100%', '70%']}
         mt={['.5rem', '1rem', '1.8rem']}
         fontSize={['.9rem', '1rem']}
         px={['1rem']}

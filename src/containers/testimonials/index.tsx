@@ -9,6 +9,7 @@ export const Testimonials = () => {
       justifyContent="center"
       pt={["12rem", "15rem"]}
       alignItems="center"
+      pb="2rem"
       px={['1rem', '1.5rem', '3rem']}
     >
       <Text

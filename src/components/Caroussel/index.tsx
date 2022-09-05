@@ -7,8 +7,6 @@ import { useRouter } from 'next/router'
 SwiperCore.use([Navigation, Autoplay])
 
 const Caroussel = () => {
-  const router = useRouter()
-
   const elements = [
     {
       description:

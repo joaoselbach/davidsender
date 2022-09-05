@@ -5,6 +5,8 @@ import { Hero } from '~/containers/hero'
 import { Explain } from '~/containers/explain'
 import { Idea } from '~/containers/idea'
 import { Testimonials } from '~/containers/testimonials'
+import { Content } from '~/containers/content'
+import { Offer } from '~/containers/offer'
 
 export const Home = () => {
   return (
@@ -67,6 +69,26 @@ export const Home = () => {
           minH="100vh"
         >
           <Testimonials />
+        </Box>
+
+        <Box
+          backgroundImage={[ "/images/bg-mobile-base.png", "/images/bg-base-md.png", "/images/bg-base.png" ]}
+          backgroundSize="cover"
+          backgroundRepeat="no-repeat"
+          h="100%"
+          minH="100vh"
+        >
+          <Content />
+        </Box>
+        <Box
+          backgroundImage={[ "/images/bg-offer-mobile.png", "/images/bg-offer-md.png", "/images/bg-offer-test.png" ]}
+          backgroundSize="cover"
+          backgroundRepeat="no-repeat"
+          h="100%"
+          mt="-14rem"
+          minH={["150vh", "160vh", "160vh"]}
+        >
+          <Offer />
         </Box>
       </Box>
     </>
