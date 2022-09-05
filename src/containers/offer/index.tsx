@@ -60,12 +60,6 @@ export const Offer = () => {
             Acesso completo ao curso e os bônus
           </Text>
         </Flex>
-        <Flex mt="1rem" alignItems="center" gap=".3rem">
-          <Icon fontSize="1.2rem" fill="#fff" icon={FaCheckCircle} />
-          <Text color="gray.100" fontWeight={700} textAlign="left">
-            EXPERIMENTE DURANTE 7 DIAS, SE NÃO GOSTAR TENHA SEU REEMBOLSO
-          </Text>
-        </Flex>
       </Flex>
       <Link
         display="flex"

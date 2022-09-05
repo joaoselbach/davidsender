@@ -59,7 +59,7 @@ export const Home = () => {
         </Box>
         <Box
           backgroundImage={[
-            '/images/bg-testimonial-mobile.png',
+            '/images/bg-testimonials-test.png',
             '/images/bg-testimonials-md.png',
             '/images/bg-testimonials-md.png'
           ]}
