@@ -7,9 +7,10 @@ export const Testimonials = () => {
     <Flex
       flexDirection="column"
       justifyContent="center"
-      pt={["14rem", "15rem"]}
+      minH="100vh"
+      pt={["15rem", "17rem"]}
       alignItems="center"
-      pb="2rem"
+      pb="4rem"
       px={['1rem', '1.5rem', '3rem']}
     >
       <Text
