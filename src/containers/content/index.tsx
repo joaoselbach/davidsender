@@ -96,7 +96,7 @@ export const Content = () => {
             <Image src="images/third-card.png" />
           </GridItem>
           <GridItem>
-            <Image src="images/card-bonus.png" />
+            <Image src="images/top-card.png" />
           </GridItem>
         </Grid>
       </Flex>

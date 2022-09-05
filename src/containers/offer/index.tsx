@@ -33,7 +33,7 @@ export const Offer = () => {
             styles={{
               color: '#46BAB1',
               fontWeight: '900',
-              fontSize: '2.2rem'
+              fontSize: '4.2rem'
             }}
           >
             DE R$89,70 OU
@@ -45,7 +45,7 @@ export const Offer = () => {
             styles={{
               color: '#46BAB1',
               fontWeight: '900',
-              fontSize: '4.2rem'
+              fontSize: '2.2rem'
             }}
           >
             R$897,00
