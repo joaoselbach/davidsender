@@ -13,13 +13,13 @@ interface FrequentQuestionsProps {
   children: ReactNode
 }
 
-export const Accordion = ({ title, children }: FrequentQuestionsProps) => {
+export const FrequentQuestions = ({ title, children }: FrequentQuestionsProps) => {
   return (
     <ChakraAccordion allowToggle minWidth={[0, 0, 0, 0, 0, 600]} w="100%">
       <AccordionItem
         w="100%"
-        bgColor="gray.700"
-        borderTop="0"
+        borderColor="#c1c1c1"
+        borderTop="1"
         borderBottom="0"
         minW={[0, 382, 500, 800]}
       >
@@ -31,14 +31,14 @@ export const Accordion = ({ title, children }: FrequentQuestionsProps) => {
             py=".75rem"
             textAlign="left"
             fontWeight={500}
-            color="gray.300"
+            color="gray.700"
             fontSize={['.9rem', '1rem']}
           >
             {title}
           </Box>
-          <AccordionIcon />
+          <AccordionIcon  />
         </AccordionButton>
-        <AccordionPanel fontSize={[".9rem", "1rem"]} color="gray.500" pb={4} maxW={[400, 500, 800]}>
+        <AccordionPanel fontSize={[".9rem", "1rem"]} color="gray.600" pb={4} maxW={[400, 500, 800]}>
           {children}
         </AccordionPanel>
       </AccordionItem>

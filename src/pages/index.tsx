@@ -7,6 +7,7 @@ import { Idea } from '~/containers/idea'
 import { Testimonials } from '~/containers/testimonials'
 import { Content } from '~/containers/content'
 import { Offer } from '~/containers/offer'
+import { Faq } from '~/containers/faq'
 
 export const Home = () => {
   return (
@@ -81,14 +82,24 @@ export const Home = () => {
           <Content />
         </Box>
         <Box
-          backgroundImage={[ "/images/bg-offer-mobile.png", "/images/bg-offer-md.png", "/images/bg-offer-test.png" ]}
+          backgroundImage={[ "/images/bg-offer-mobile-test.png", "/images/bg-buy-test.png", "/images/bg-buy-test.png" ]}
           backgroundSize="cover"
           backgroundRepeat="no-repeat"
           h="100%"
           mt="-14rem"
+          zIndex="10"
           minH={["150vh", "160vh", "160vh"]}
         >
           <Offer />
+        </Box>
+        <Box
+          backgroundImage={[ "images/bg-faq-mobile.png", "/images/bg-faq-test.png", "/images/bg-base-test.png" ]}
+          backgroundSize="cover"
+          backgroundRepeat="no-repeat"
+          h="100%"
+          minH="80vh"
+        >
+          <Faq />
         </Box>
       </Box>
     </>
