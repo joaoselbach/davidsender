@@ -77,8 +77,14 @@ export const Content = () => {
           <Module name="O feitiço de aquiles" number="20" />
         </VStack>
       </Flex>
-      <Flex mt="6rem" flexDirection={['column', 'column', 'row']} justifyContent="space-between" alignItems="center" pb="14rem">
-        <Image w={["80%", "50%", "50%"]} src="images/bonus.png" />
+      <Flex
+        mt="6rem"
+        flexDirection={['column', 'column', 'row']}
+        justifyContent="space-between"
+        alignItems="center"
+        pb="14rem"
+      >
+        <Image w={['80%', '50%', '50%']} src="images/bonus.png" />
         <Grid
           templateColumns={[
             'repeat(1, 1fr)',
@@ -87,6 +93,9 @@ export const Content = () => {
           ]}
         >
           <GridItem>
+            <Image src="images/top-card.png" />
+          </GridItem>
+          <GridItem>
             <Image src="images/first-card.png" />
           </GridItem>
           <GridItem>
@@ -94,9 +103,6 @@ export const Content = () => {
           </GridItem>
           <GridItem>
             <Image src="images/third-card.png" />
-          </GridItem>
-          <GridItem>
-            <Image src="images/top-card.png" />
           </GridItem>
         </Grid>
       </Flex>

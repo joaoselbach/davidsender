@@ -21,10 +21,10 @@ export const BuyButton = ({ children, fontSize, w, mt, py, px }: ButtonProps) =>
 
       mt={mt}
       fontSize={fontSize}
-      bgColor="#fff"
+      bgColor="primary.blue"
       textTransform="uppercase"
       gap=".5rem"
-      color="gray.800"
+      color="gray.50"
       alignItems="center"
       fontWeight="bold"
       transition="0.2s all ease"

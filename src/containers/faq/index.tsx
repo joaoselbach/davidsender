@@ -11,8 +11,8 @@ export const Faq = () => {
       alignItems="center"
       px={['1rem', '1.5rem', '3rem']}
     >
-      <Heading color="primary.blue" letterSpacing="5px" fontWeight="900">
-        Faq
+      <Heading color="primary.blue" textAlign="center" fontWeight="900">
+        Perguntas frequentes
       </Heading>
 
       <Flex
