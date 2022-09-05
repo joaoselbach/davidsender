@@ -24,7 +24,7 @@ export const Home = () => {
         >
           <Hero />
         </Box>
-        <Box
+        {/* <Box
           backgroundImage={[
             '/images/bg-how-md.png',
             '/images/bg-how-md.png',
@@ -49,7 +49,7 @@ export const Home = () => {
           minH="100vh"
         >
           <Hero />
-        </Box>
+        </Box> */}
       </Box>
     </>
   )

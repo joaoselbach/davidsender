@@ -1,15 +1,8 @@
 import TestimonialCaroussel from '~/components/Caroussel/testimonial'
 
 import { Flex, Text } from '@chakra-ui/react'
-import translates from '~/locales'
-import { useRouter } from 'next/router'
 
 export const Testimonials = () => {
-  const router = useRouter()
-
-  const { locale } = router
-  const { en, es, pt } = translates
-  const t = locale === 'es' ? es : locale === 'en' ? en : pt
 
   return (
     <Flex
@@ -28,7 +21,7 @@ export const Testimonials = () => {
         py={['1rem', '2rem']}
         px={['1rem', '1.5rem', '2.5rem']}
       >
-        {t.testimonials.title}
+        asdasdsad
       </Text>
       <TestimonialCaroussel />
     </Flex>
