@@ -4,6 +4,7 @@ import { Box, Icon, Text } from '@chakra-ui/react'
 import { Hero } from '~/containers/hero'
 import { Explain } from '~/containers/explain'
 import { Idea } from '~/containers/idea'
+import { Testimonials } from '~/containers/testimonials'
 
 export const Home = () => {
   return (
@@ -50,9 +51,22 @@ export const Home = () => {
           backgroundSize="cover"
           backgroundRepeat="no-repeat"
           h="100%"
-          minH="100vh"
+          minH="120vh"
         >
           <Idea />
+        </Box>
+        <Box
+          backgroundImage={[
+            '/images/bg-testimonial-mobile.png',
+            '/images/bg-testimonials-md.png',
+            '/images/bg-testimonials-md.png'
+          ]}
+          backgroundSize="cover"
+          backgroundRepeat="no-repeat"
+          h="100%"
+          minH="100vh"
+        >
+          <Testimonials />
         </Box>
       </Box>
     </>

@@ -2,33 +2,30 @@ import { Avatar, Divider, Flex, Image, Text, VStack } from '@chakra-ui/react'
 
 interface TestimonialProps {
   name: string
-  src: string
   description: string
 }
 
-export const Testimonial = ({ description, name, src }: TestimonialProps) => {
+export const Testimonial = ({ description, name }: TestimonialProps) => {
   return (
     <Flex
       flexDirection="column"
       justifyContent="space-between"
-      p={["1.2rem", "2rem"]}
-      maxW={400}
-      minH={428}
+      p={['1.2rem', '2rem']}
+      maxW={800}
+      minH={580}
       gap="2rem"
-      borderRadius="1rem"
-      bgColor="gray.700"
+      borderRadius="1.5rem 1.5rem .5rem 1.5rem"
+      bgColor="transparent"
+      border="1px #7b7b7b solid"
     >
-      <VStack alignItems="flex-start" textAlign="left" spacing="1rem">
-        <Image w="2rem" src="/images/quote.svg" />
-        <Text color="gray.200">{description}</Text>
+      <VStack alignItems="flex-start" textAlign="left" spacing=".2rem">
+        <Image w="2rem" src="/images/quote-up.svg" />
+        <Text fontWeight="300" color="gray.600">{description}</Text>
+        <Image alignSelf="flex-end" w="2rem" src="/images/quote-down.svg" />
       </VStack>
 
-      <Flex gap="1rem" borderTopWidth={1} pt="2rem" borderTopColor="gray.600">
-        <Avatar src={src} size="lg" />
-        <VStack alignItems="flex-start" fontWeight={700} fontSize="1.2rem">
-          <Text>{name}</Text>
-          <Image src="/images/stars.svg" />
-        </VStack>
+      <Flex gap="1rem" justifyContent="center" textAlign="center" pt="1rem">
+        <Text fontSize="1.2rem" color="gray.700" fontWeight="500">{name}</Text>
       </Flex>
     </Flex>
   )
