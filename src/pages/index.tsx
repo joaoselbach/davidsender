@@ -34,10 +34,12 @@ export const Home = () => {
         </Box>
         <Box
           backgroundImage={[
-            '/images/bg-how-mobile.png',
+            '/images/bg-how-mobile-test.png',
             '/images/bg-how-md.png',
             '/images/bg-how-md.png'
           ]}
+          mt="-.5rem"
+
           backgroundSize="cover"
           backgroundRepeat="no-repeat"
           h="100%"
@@ -47,7 +49,7 @@ export const Home = () => {
         </Box>
         <Box
           backgroundImage={[
-            '/images/testidea.png',
+            '/images/bg-idea-mobile.png',
             '/images/bg-idea-md.png',
             '/images/bg-idea-md.png'
           ]}
