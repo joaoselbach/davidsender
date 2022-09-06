@@ -33,7 +33,7 @@ export const Hero = () => {
         Seja uma profissional de saúde que sabe conduzir pacientes em uso de
         psicofármacos de forma clara, eficiente e segura
       </Heading>
-      <Text fontSize={['1rem', '1.1rem', '1.1rem']}>
+      <Text  color="gray.500" fontSize={['1rem', '1.1rem', '1.1rem']}>
         Entenda de uma vez por todas os efeitos dos psicofármacos e pare de
         perder noites de sono pensando se a sua conduta foi ou não correta.
         Tenha o domínio e a segurança nas suas decisões clínicas sobre a maior
