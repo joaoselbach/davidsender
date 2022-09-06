@@ -8,7 +8,7 @@ export const Testimonials = () => {
       flexDirection="column"
       justifyContent="center"
       minH="100vh"
-      pt={["15rem", "17rem"]}
+      pt={["17rem", "17rem"]}
       alignItems="center"
       pb="4rem"
       px={['1rem', '1.5rem', '3rem']}

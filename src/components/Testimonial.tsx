@@ -10,9 +10,9 @@ export const Testimonial = ({ description, name }: TestimonialProps) => {
     <Flex
       flexDirection="column"
       justifyContent="space-between"
-      p={['1.2rem', '2rem']}
+      p={['1.2rem', '1.3rem']}
       maxW={800}
-      minH={580}
+      minH={625}
       gap="2rem"
       borderRadius="1.5rem 1.5rem .5rem 1.5rem"
       bgColor="transparent"
