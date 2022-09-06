@@ -27,7 +27,7 @@ export const Content = () => {
         alignItems="flex-start"
         flexDirection={['column', 'column', 'row']}
         borderRadius="1.5rem 1.5rem .5rem 1.5rem"
-        justifyContent="flex-start"
+        justifyContent="space-around"
         bgColor="transparent"
         py="2rem"
         gap="1rem"
