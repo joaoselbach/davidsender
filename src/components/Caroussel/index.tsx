@@ -55,6 +55,7 @@ const Caroussel = () => {
       <Swiper
         slidesPerView={3}
         spaceBetween={20}
+        autoplay
         breakpoints={{
           1368: {
             slidesPerView: 3
