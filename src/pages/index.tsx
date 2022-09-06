@@ -105,7 +105,7 @@ export const Home = () => {
           h="100%"
           mt="-14rem"
           zIndex="10"
-          minH={['150vh', '160vh', '160vh']}
+          minH={['150vh', '160vh', '170vh']}
         >
           <Offer />
         </Box>
