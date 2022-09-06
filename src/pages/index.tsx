@@ -56,7 +56,7 @@ export const Home = () => {
           backgroundSize="cover"
           backgroundRepeat="no-repeat"
           h="100%"
-          minH="120vh"
+          minH={["110vh", "120vh", "120vh"]}
         >
           <Idea />
         </Box>

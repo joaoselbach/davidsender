@@ -4,9 +4,9 @@ import { SolidButton } from '~/components/Buttons/SolidButton'
 export const Idea = () => {
   return (
     <Flex
-    h="100%"
-    justifyContent="center"
-    alignItems="center"
+      h="100%"
+      justifyContent="center"
+      alignItems="center"
       flexDirection="column"
       px={['.7rem', '1.5rem', '6rem']}
       maxW="1000px"
@@ -33,7 +33,7 @@ export const Idea = () => {
           IDÉIA
         </span>{' '}
         de montar uma{' '}
-        <span style={{ color: '#6b6b6b', fontWeight: '700' }}>
+        <span style={{ color: '#383838', fontWeight: '700' }}>
           formação de Psicofarmacologia{' '}
         </span>
         para psicólogas e outros profissionais da saúde, afinal, estudo e aplico
@@ -55,13 +55,13 @@ export const Idea = () => {
         o assunto.
       </Text>
       <SolidButton
-      minW={["100%", "80%"]}
+        minW={['100%', '80%']}
         mt={['2rem', '1rem', '1.8rem']}
         fontSize={['.9rem', '1rem']}
         px={['1rem']}
         py={['1.5rem', '1.8rem']}
       >
-       EU QUERO CONDUZIR AS <br /> SESSÕES COM SEGURANÇA
+        EU QUERO CONDUZIR AS <br /> SESSÕES COM SEGURANÇA
       </SolidButton>
     </Flex>
   )

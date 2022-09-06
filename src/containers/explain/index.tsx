@@ -32,7 +32,7 @@ export const Explain = () => {
         tradicional de psicologia, que aprofunda os conhecimentos de
         psicofarmacologia para esses profissionais que fatalmente lidarão com
         essa temática.{' '}
-        <span style={{ color: '#6b6b6b', fontWeight: '700' }}>
+        <span style={{ color: '#383838', fontWeight: '700' }}>
           O que prejudica sua qualidade técnica
         </span>
         . <br /> <br />
