@@ -32,7 +32,7 @@ export const Idea = () => {
         <span
           style={{ color: '#F69D27', fontWeight: '900', fontSize: '1.2rem' }}
         >
-          IDÉIA
+          IDEIA
         </span>{' '}
         de montar uma{' '}
         <span style={{ color: '#383838', fontWeight: '700' }}>
