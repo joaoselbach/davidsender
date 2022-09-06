@@ -31,6 +31,7 @@ export const Content = () => {
         bgColor="transparent"
         py="2rem"
         gap="1rem"
+        w="100%"
         px={['2rem', '4rem', '4rem']}
         border="1px #7b7b7b solid"
       >
