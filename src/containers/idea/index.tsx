@@ -8,13 +8,15 @@ export const Idea = () => {
       justifyContent="center"
       alignItems="center"
       flexDirection="column"
-      px={['.7rem', '1.5rem', '6rem']}
-      maxW="1000px"
+      px={['.5rem', '1.5rem', '6rem', '6rem', '6rem', '15rem']}
+      pt={[null, null, null, null, null, "9rem"]}
+      maxW={['1000px', '1000px', '1000px', '1000px', '1000px', '1200px']}
+      minH="100vh"
       marginLeft="auto"
     >
       <Image
-        display={['none', 'none', 'block']}
-        w="75%"
+        display={['none', 'none', 'block', 'block', 'block', 'none']}
+        w="60%"
         src="/images/path.png"
       />
       <Text
@@ -55,7 +57,7 @@ export const Idea = () => {
         o assunto.
       </Text>
       <SolidButton
-        minW={['100%', '80%']}
+        minW={['100%', '100%']}
         mt={['2rem', '1rem', '1.8rem']}
         fontSize={['.9rem', '1rem']}
         px={['1rem']}

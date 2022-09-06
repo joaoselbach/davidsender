@@ -2,14 +2,18 @@ import { Flex, Heading, Text } from '@chakra-ui/react'
 
 export const Explain = () => {
   return (
-    <Flex flexDirection="column" maxW="800" px={['1rem', '1.5rem', '6rem']}>
-      <Heading color="primary.red" letterSpacing="5px" fontWeight="900">
+    <Flex
+      flexDirection="column"
+      px={['.5rem', '1.5rem', '6rem', '6rem', '6rem', '15rem']}
+      maxW={[800, 800, 800, 800, 800, 1300]}
+    >
+      <Heading color="primary.red" letterSpacing="5px" fontWeight="900" fontSize={["2.4rem", "2.4rem", "3rem"]}>
         Como
       </Heading>
       <Text
         color="gray.700"
         fontWeight="700"
-        fontSize="1.2rem"
+        fontSize={["1.2rem", "1.2rem", "1.4rem"]}
         maxW={[240, 300, 600]}
       >
         Conduzir pacientes em uso de psicofármacos de forma clara, eficiente e
@@ -19,7 +23,7 @@ export const Explain = () => {
       <Text
         color="gray.500"
         mt="2rem"
-        maxW={[200, 300, 600]}
+        maxW={[200, 300, 1300]}
         textAlign="justify"
       >
         Durante anos recebo diversas mensagens de psicólogos que têm medo de

@@ -39,7 +39,7 @@ export const theme = extendTheme({
           background: '#2b2b2b'
         },
         '&::-webkit-scrollbar-thumb': {
-          background: '#C2AD60',
+          background: '#F69D27',
           borderRadius: '24px'
         },
         '::-webkit-scrollbar-thumb:hover': {

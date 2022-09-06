@@ -28,7 +28,7 @@ export const BuyButton = ({ children, fontSize, w, mt, py, px }: ButtonProps) =>
       alignItems="center"
       fontWeight="bold"
       transition="0.2s all ease"
-      _hover={{ filter: 'drop-shadow(0px 0px 12px #f69c274b)' }}
+      _hover={{ filter: 'drop-shadow(0px 0px 15px #1fb2ba6c)' }}
       _active={{ opacity: 0.9 }}
       _focus={{ border: 'none' }}
     >

@@ -35,15 +35,17 @@ export const Home = () => {
         <Box
           backgroundImage={[
             '/images/bg-how-mobile-test.png',
-            '/images/bg-how-md.png',
-            '/images/bg-how-md.png'
+            '/images/bg-how-md-test.png',
+            '/images/bg-how-md-test.png',
+            '/images/bg-how-md-test.png',
+            '/images/bg-how-md-test.png',
+            '/images/bg-how-lg-test.png'
           ]}
           mt="-.5rem"
-
           backgroundSize="cover"
           backgroundRepeat="no-repeat"
           h="100%"
-          minH="115vh"
+          minH="80vh"
         >
           <Explain />
         </Box>
@@ -51,20 +53,23 @@ export const Home = () => {
           backgroundImage={[
             '/images/bg-idea-mobile.png',
             '/images/bg-idea-md.png',
-            '/images/bg-idea-md.png'
+            '/images/bg-idea-md.png',
+            '/images/bg-idea-md.png',
+            '/images/bg-idea-md.png',
+            '/images/bg-idea-lg-test.png'
           ]}
           backgroundSize="cover"
           backgroundRepeat="no-repeat"
           h="100%"
-          minH={["110vh", "120vh", "120vh"]}
+          minH={['110vh', '120vh', '110vh']}
         >
           <Idea />
         </Box>
         <Box
           backgroundImage={[
-            '/images/bg-testimonials-test.png',
-            '/images/bg-testimonials-md.png',
-            '/images/bg-testimonials-md.png'
+            '/images/testimonial-test-mobile.png',
+            '/images/testimonials-test.png',
+            '/images/testimonials-test.png'
           ]}
           backgroundSize="cover"
           backgroundRepeat="no-repeat"
@@ -75,7 +80,13 @@ export const Home = () => {
         </Box>
 
         <Box
-          backgroundImage={[ "/images/bg-mobile-base.png", "/images/bg-base-md.png", "/images/bg-base.png" ]}
+          backgroundImage={[
+            '/images/bg-mobile-base.png',
+            '/images/modules-test-2.png',
+            '/images/modules-test-2.png',
+            '/images/modules-test-2.png',
+            '/images/modules-test-2.png',
+          ]}
           backgroundSize="cover"
           backgroundRepeat="no-repeat"
           h="100%"
@@ -84,18 +95,26 @@ export const Home = () => {
           <Content />
         </Box>
         <Box
-          backgroundImage={[ "/images/bg-offer-mobile-test.png", "/images/bg-buy-test.png", "/images/bg-buy-test.png" ]}
+          backgroundImage={[
+            '/images/bg-offer-mobile-test.png',
+            '/images/bg-buy-test.png',
+            '/images/bg-buy-test.png'
+          ]}
           backgroundSize="cover"
           backgroundRepeat="no-repeat"
           h="100%"
           mt="-14rem"
           zIndex="10"
-          minH={["150vh", "160vh", "160vh"]}
+          minH={['150vh', '160vh', '160vh']}
         >
           <Offer />
         </Box>
         <Box
-          backgroundImage={[ "images/bg-faq-mobile.png", "/images/bg-faq-test.png", "/images/bg-base-test.png" ]}
+          backgroundImage={[
+            'images/bg-faq-mobile.png',
+            '/images/bg-faq-test.png',
+            '/images/bg-base-test.png'
+          ]}
           backgroundSize="cover"
           backgroundRepeat="no-repeat"
           h="100%"

@@ -15,8 +15,8 @@ export const Hero = () => {
       ]}
       h="100%"
       minH={['80vh', '80vh', '90vh']}
-      maxW="800"
-      px={['.5rem', '1.5rem', '6rem']}
+      maxW={[800, 800, 800, 800, 800, 1200]}
+      px={['.5rem', '1.5rem', '6rem', '6rem', '6rem', '15rem']}
       textAlign={['center', 'center', 'inherit']}
       gap=".5rem"
     >
@@ -33,7 +33,7 @@ export const Hero = () => {
         Seja uma profissional de saúde que sabe conduzir pacientes em uso de
         psicofármacos de forma clara, eficiente e segura
       </Heading>
-      <Text  color="gray.500" fontSize={['1rem', '1.1rem', '1.1rem']}>
+      <Text color="gray.500" fontSize={['1rem', '1.1rem', '1.1rem']}>
         Entenda de uma vez por todas os efeitos dos psicofármacos e pare de
         perder noites de sono pensando se a sua conduta foi ou não correta.
         Tenha o domínio e a segurança nas suas decisões clínicas sobre a maior
@@ -47,7 +47,7 @@ export const Hero = () => {
         px={['1rem']}
         py={['1.5rem', '1.8rem']}
       >
-        EU QUERO SER UMA  PROFISSIONAL MELHOR
+        EU QUERO SER UMA PROFISSIONAL MELHOR
       </SolidButton>
     </Flex>
   )
