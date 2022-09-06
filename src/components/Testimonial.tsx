@@ -20,7 +20,7 @@ export const Testimonial = ({ description, name }: TestimonialProps) => {
     >
       <VStack alignItems="flex-start" textAlign="left" spacing=".2rem">
         <Image w="2rem" src="/images/quote-up.svg" />
-        <Text fontWeight="300" color="gray.600">{description}</Text>
+        <Text fontWeight="300" color="gray.500">{description}</Text>
         <Image alignSelf="flex-end" w="2rem" src="/images/quote-down.svg" />
       </VStack>
 

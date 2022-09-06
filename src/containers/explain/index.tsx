@@ -7,7 +7,7 @@ export const Explain = () => {
         Como
       </Heading>
       <Text
-        color="gray.600"
+        color="gray.700"
         fontWeight="700"
         fontSize="1.2rem"
         maxW={[240, 300, 600]}

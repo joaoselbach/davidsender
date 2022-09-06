@@ -22,7 +22,7 @@ export const Testimonials = () => {
       >
         Depoimentos
       </Text>
-      <Text fontSize="1.2rem" color="gray.700">de alunas da formação:</Text>
+      <Text fontSize="1.2rem" color="gray.700" fontWeight={700}>de alunas da formação:</Text>
       <Caroussel />
     </Flex>
   )

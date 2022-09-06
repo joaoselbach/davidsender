@@ -19,7 +19,7 @@ export const Content = () => {
       >
         Como
       </Text>
-      <Text fontSize="1.2rem" color="gray.700">
+      <Text fontSize="1.2rem" color="gray.700" fontWeight={700}>
         Essa formação será entregue?
       </Text>
       <Flex
