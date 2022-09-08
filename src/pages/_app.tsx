@@ -40,6 +40,8 @@ const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
   
   gtag('config', 'AW-444071114');`}</Script>
 
+      <Script strategy="lazyOnload">{`gtag('event', 'conversion', {'send_to': 'AW-444071114/hEPKCMzk2tsDEMr539MB'});`}</Script>
+
       <ChakraProvider theme={theme}>
         <SimpleReactLightbox>
           <Component {...pageProps} />
