@@ -54,7 +54,7 @@ export const Content = () => {
           />
           <Module name="O senhor dos remédios" number="5" />
           <Module
-            name="Viagra: A incrível história de um dos remédios mais vendidos do mundo"
+            name="Pílula azul: A incrível história de um dos remédios mais vendidos do mundo"
             number="6"
           />
           <Module
