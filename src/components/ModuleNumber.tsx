@@ -34,8 +34,8 @@ export const Module = ({ number, name }: ModuleNumberProps) => {
       <Text
         fontWeight={400}
         color="gray.500"
-        fontSize={['.95rem', '1.1rem', '1rem', '.96rem', '1rem']}
-        maxW={[220, 500, 1000]}
+        fontSize={['.95rem', '1rem', '1rem', '.96rem', '1rem']}
+        maxW={[220, 300, 250, 1000]}
       >
         {name}
       </Text>

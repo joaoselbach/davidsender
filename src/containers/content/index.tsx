@@ -31,8 +31,8 @@ export const Content = () => {
         bgColor="transparent"
         py="2rem"
         gap="1rem"
-        w={["100%","100%","65%"]}
-        px={['2rem', '4rem', '4rem']}
+        w={['100%', '100%', '100%', '100%', '90%', '65%']}
+        px={['2rem', '2rem', '1rem', '1rem', '4rem']}
         border="1px #7b7b7b solid"
       >
         <VStack spacing="1.4rem" alignItems="flex-start">
