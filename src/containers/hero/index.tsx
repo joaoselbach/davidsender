@@ -1,7 +1,18 @@
-import { Flex, Heading, Image, Link, Text } from '@chakra-ui/react'
+import {
+  Flex,
+  Heading,
+  Image,
+  Text,
+  useBreakpointValue
+} from '@chakra-ui/react'
 import { SolidButton } from '~/components/Buttons/SolidButton'
 
 export const Hero = () => {
+  const isWideVersion = useBreakpointValue({
+    base: false,
+    lg: true
+  })
+
   return (
     <Flex
       alignItems={['center', 'center', 'flex-start']}
@@ -47,7 +58,8 @@ export const Hero = () => {
         px={['1rem']}
         py={['1.5rem', '1.8rem']}
       >
-        EU QUERO SER UMA PROFISSIONAL MELHOR
+        EU QUERO SER UMA
+        {!isWideVersion && <br />} PROFISSIONAL MELHOR
       </SolidButton>
     </Flex>
   )
